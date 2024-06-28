@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 const Services = () => {
   return (
     <section
-      className="min-h-[80vh] flex flex-col justify-center pt-20 lg:pt-36"
+      className="flex flex-col justify-center pt-32 lg:pt-40"
       id="services"
     >
       <Heading>My Services</Heading>

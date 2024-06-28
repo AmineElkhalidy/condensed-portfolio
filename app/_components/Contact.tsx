@@ -58,7 +58,7 @@ const Contact = () => {
           ease: "easeIn",
         },
       }}
-      className="pt-20 lg:pt-36"
+      className="pt-32 lg:pt-40"
       id="contact"
     >
       <Heading>Contact Me</Heading>

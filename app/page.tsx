@@ -1,4 +1,5 @@
 import { Hero, Services, About, Work, Contact } from "./_components";
+import BackToTop from "@/components/BackToTop";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <About />
       <Work />
       <Contact />
+      <BackToTop />
     </>
   );
 }
