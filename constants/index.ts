@@ -212,7 +212,7 @@ export const projects = [
       { name: "Drizzle" },
       { name: "Gemini" },
     ],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/thumb4.png",
     live: "https://formify-ai-app.vercel.app",
     github: "https://github.com/AmineElkhalidy/formify",
   },

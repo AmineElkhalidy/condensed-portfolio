@@ -7,7 +7,9 @@ const Testimonials = () => {
   return (
     <section className="pt-20 lg:pt-32">
       <div className="text-center mb-14">
-        <h2 className="text-4xl font-extrabold font-secondary">Testimonials</h2>
+        <h2 className="text-4xl text-center font-extrabold md:text-5xl font-secondary">
+          Testimonials
+        </h2>
         <p className="text-muted-foreground mt-2">
           What my clients say about my work
         </p>
