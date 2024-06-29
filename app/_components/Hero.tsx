@@ -8,7 +8,7 @@ import { FiDownload } from "react-icons/fi";
 const Hero = () => {
   return (
     <section className="h-full" id="home">
-      <div className="container mx-auto h-full">
+      <div className="container mx-auto h-full mt-16 sm:mt-0">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* Text */}
           <div className="text-center xl:text-left order-2 xl:order-none">
