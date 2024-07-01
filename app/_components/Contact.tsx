@@ -82,13 +82,13 @@ const Contact = () => {
 
               {/* Input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="text" name="firstname" placeholder="Firstname" />
+                <Input type="text" name="firstname" placeholder="First name" />
                 <ValidationError
                   prefix="First Name"
                   field="firstname"
                   errors={state.errors}
                 />
-                <Input type="text" name="lastname" placeholder="Lastname" />
+                <Input type="text" name="lastname" placeholder="Last name" />
                 <ValidationError
                   prefix="Last Name"
                   field="lastname"
@@ -100,7 +100,7 @@ const Contact = () => {
                   field="email"
                   errors={state.errors}
                 />
-                <Input type="phone" name="phone" placeholder="Phone Number" />
+                <Input type="phone" name="phone" placeholder="Phone number" />
                 <ValidationError
                   prefix="Phone"
                   field="phone"
