@@ -4,7 +4,6 @@ import "./globals.css";
 
 // Components
 import Header from "@/components/Header";
-import StairTransition from "@/components/StairTransition";
 import ToastProvider from "@/components/ToastProvider";
 
 const rubik = Rubik({
@@ -52,8 +51,7 @@ export default function RootLayout({
       <body className={rubik.variable}>
         <Header />
         <ToastProvider />
-        <StairTransition />
-        {children}
+        <main className="w-full h-full overflow-hidden">{children}</main>
       </body>
     </html>
   );
