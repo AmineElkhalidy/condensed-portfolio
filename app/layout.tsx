@@ -17,6 +17,25 @@ export const metadata: Metadata = {
   title: "Amine Elkhalidy - Portfolio",
   description:
     "I am a Full Stack Web Developer specialized in creating stunning and user-friendly websites. Explore my work, where I combine design and technology to build responsive, modern web experiences.",
+
+  openGraph: {
+    type: "website",
+    url: "https://amineelkhalidy.com",
+    title: "Amine Elkhalidy - Portfolio",
+    siteName: "Amine Elkhalidy's Portfolio",
+    description:
+      "I am a Full Stack Web Developer specialized in creating stunning and user-friendly websites. Explore my work, where I combine design and technology to build responsive, modern web experiences.",
+    images: ["/meta.jpg"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "https://amineelkhalidy.com",
+    creator: "@amineelkhalidy",
+    title: "Amine Elkhalidy - Portfolio",
+    description:
+      "I am a Full Stack Web Developer specialized in creating stunning and user-friendly websites. Explore my work, where I combine design and technology to build responsive, modern web experiences.",
+    images: ["/meta.jpg"],
+  },
 };
 
 export default function RootLayout({
