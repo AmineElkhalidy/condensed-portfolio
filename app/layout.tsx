@@ -25,7 +25,9 @@ export const metadata: Metadata = {
     siteName: "Amine Elkhalidy's Portfolio",
     description:
       "I am a Full Stack Web Developer specialized in creating stunning and user-friendly websites. Explore my work, where I combine design and technology to build responsive, modern web experiences.",
-    images: ["/meta.jpg"],
+    images: [
+      "https://github.com/AmineElkhalidy/condensed-portfolio/blob/main/public/assets/meta.jpg",
+    ],
   },
   twitter: {
     card: "summary_large_image",
@@ -34,7 +36,9 @@ export const metadata: Metadata = {
     title: "Amine Elkhalidy - Portfolio",
     description:
       "I am a Full Stack Web Developer specialized in creating stunning and user-friendly websites. Explore my work, where I combine design and technology to build responsive, modern web experiences.",
-    images: ["/meta.jpg"],
+    images: [
+      "https://github.com/AmineElkhalidy/condensed-portfolio/blob/main/public/assets/meta.jpg",
+    ],
   },
 };
 
