@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaSquareUpwork } from "react-icons/fa6";
 import Link from "next/link";
 
 const socials = [
@@ -9,6 +10,10 @@ const socials = [
   {
     icon: <FaLinkedin />,
     path: "https://www.linkedin.com/in/elkhalidyamine/",
+  },
+  {
+    icon: <FaSquareUpwork />,
+    path: "https://www.upwork.com/freelancers/~01f55a2d4b119d3119",
   },
 ];
 
