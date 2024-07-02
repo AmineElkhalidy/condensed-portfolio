@@ -5,6 +5,8 @@ import "./globals.css";
 // Components
 import Header from "@/components/Header";
 import ToastProvider from "@/components/ToastProvider";
+import { useEffect, useState } from "react";
+import Preloader from "@/components/Preloader";
 
 const rubik = Rubik({
   subsets: ["latin"],
@@ -49,9 +51,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={rubik.variable}>
-        <Header />
-        <ToastProvider />
-        <main className="w-full h-full overflow-hidden">{children}</main>
+        <Preloader>
+          <Header />
+          <ToastProvider />
+          <main className="w-full h-full overflow-hidden">{children}</main>
+        </Preloader>
       </body>
     </html>
   );
