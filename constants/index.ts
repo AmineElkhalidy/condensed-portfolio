@@ -95,6 +95,11 @@ export const experience = {
     "Over the past few years, I've honed my skills in front-end development, creating visually appealing and user-friendly websites. With a passion for coding and a keen eye for design, I thrive on turning complex problems into simple, beautiful solutions. Dedicated to continuous learning and staying updated with the latest technologies, I strive to deliver exceptional digital experiences.",
   items: [
     {
+      company: "Préfecture d'arrondissements de Ben M'sick",
+      position: "Front End Developer",
+      duration: "2021 (Internship)",
+    },
+    {
       company: "Upwork",
       position: "Front End Developer",
       duration: "2022 - Present",
@@ -139,11 +144,11 @@ export const education = {
       degree: "Software Engineering",
       duration: "2021 - Present",
     },
-    {
-      institution: "Codedamn",
-      degree: "Software Engineering",
-      duration: "2021 - Present",
-    },
+    // {
+    //   institution: "Codedamn",
+    //   degree: "Software Engineering",
+    //   duration: "2021 - Present",
+    // },
   ],
 };
 
@@ -163,7 +168,7 @@ export const projects = [
     ],
     image: "/assets/work/thumb1.png",
     live: "https://www.learnaboutislam.com",
-    github: "",
+    github: "#",
   },
   {
     num: "02",
