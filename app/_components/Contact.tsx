@@ -131,7 +131,7 @@ const Contact = () => {
               />
 
               <Textarea
-                className="h-[200px]"
+                className="h-[200px] resize-none"
                 name="message"
                 placeholder="Your message"
               />
