@@ -6,7 +6,6 @@ import State from "@/components/Stats";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { FiDownload } from "react-icons/fi";
-// import TypewriterComponent from "typewriter-effect";
 
 const Hero = () => {
   return (

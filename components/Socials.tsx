@@ -11,10 +11,10 @@ const socials = [
     icon: <FaLinkedin />,
     path: "https://www.linkedin.com/in/elkhalidyamine/",
   },
-  {
-    icon: <FaSquareUpwork />,
-    path: "https://www.upwork.com/freelancers/~01f55a2d4b119d3119",
-  },
+  // {
+  //   icon: <FaSquareUpwork />,
+  //   path: "https://www.upwork.com/freelancers/~01f55a2d4b119d3119",
+  // },
 ];
 
 const Socials = ({

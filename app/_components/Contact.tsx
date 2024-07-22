@@ -35,7 +35,7 @@ const info = [
   {
     icon: <FaMapMarkedAlt />,
     title: "Address",
-    description: "Marrakech, Morocco",
+    description: "Marrakech - Morocco",
     href: "https://www.google.com/maps/place/Marrakesh/@31.6348079,-8.1726689,11z/data=!3m1!4b1!4m6!3m5!1s0xdafee8d96179e51:0x5950b6534f87adb8!8m2!3d31.6225224!4d-7.9898258!16zL20vMDU0cnc?entry=ttu",
   },
 ];
