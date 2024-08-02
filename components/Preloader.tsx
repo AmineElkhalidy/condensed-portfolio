@@ -12,7 +12,7 @@ const Preloader = ({ children }: { children: React.ReactNode }) => {
   }, []);
   return (
     <>
-      {loading ? (
+      {loading && (
         <div className="w-full h-screen flex items-center justify-center">
           <InfinitySpin
             visible={true}
@@ -21,9 +21,8 @@ const Preloader = ({ children }: { children: React.ReactNode }) => {
             ariaLabel="infinity-spin-loading"
           />
         </div>
-      ) : (
-        <>{children}</>
       )}
+      {!loading && <>{children}</>}
     </>
   );
 };
