@@ -2,6 +2,7 @@ import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Marquee from "react-fast-marquee";
 import { testimonials } from "@/constants";
+import Link from "next/link";
 
 const Testimonials = () => {
   return (
@@ -35,6 +36,15 @@ const Testimonials = () => {
             </Card>
           ))}
         </Marquee>
+      </div>
+
+      <div className="w-full flex items-center justify-center mt-16">
+        <Link
+          href="https://upwork.com"
+          className="font-medium py-3 px-12 border rounded-full text-muted-foreground transition-all hover:bg-sky-700 hover:text-white"
+        >
+          See more on Upwork
+        </Link>
       </div>
     </section>
   );

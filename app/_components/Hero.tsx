@@ -33,7 +33,7 @@ const Hero = () => {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="uppercase flex items-center gap-2 rounded-full border-sky-700 transition-all hover:text-sky-700"
+                  className="uppercase flex items-center gap-2 rounded-full text-muted-foreground border-muted-foreground transition-all hover:text-sky-700 hover:border-sky-700"
                 >
                   <span>Download CV</span>
                   <FiDownload className="text-xl" />

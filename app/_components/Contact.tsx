@@ -164,7 +164,7 @@ const Contact = () => {
                     <h3 className="text-muted-foreground">{info.title}</h3>
                     <Link
                       href={info.href}
-                      className="text-lg font-medium duration-300 group-hover:text-sky-700"
+                      className="font-medium duration-300 group-hover:text-sky-700"
                       target="_blank"
                     >
                       {info.description}
