@@ -5,7 +5,6 @@ import "./globals.css";
 // Components
 import Header from "@/components/Header";
 import ToastProvider from "@/components/ToastProvider";
-import { useEffect, useState } from "react";
 import Preloader from "@/components/Preloader";
 
 const rubik = Rubik({

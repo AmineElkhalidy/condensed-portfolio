@@ -5,9 +5,8 @@ import React, { useState, useEffect } from "react";
 import { InfinitySpin } from "react-loader-spinner";
 
 const Preloader = ({ children }: { children: React.ReactNode }) => {
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
-    setLoading(true);
     setTimeout(() => setLoading(false), 3000);
   }, []);
   return (
