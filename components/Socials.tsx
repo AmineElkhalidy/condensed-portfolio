@@ -7,10 +7,10 @@ const socials = [
     icon: <FaGithub />,
     path: "https://github.com/AmineElkhalidy",
   },
-  // {
-  //   icon: <FaLinkedin />,
-  //   path: "https://www.linkedin.com/in/elkhalidyamine/",
-  // },
+  {
+    icon: <FaLinkedin />,
+    path: "https://www.linkedin.com",
+  },
   // {
   //   icon: <FaSquareUpwork />,
   //   path: "https://www.upwork.com/freelancers/~01f55a2d4b119d3119",

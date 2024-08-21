@@ -1,7 +1,7 @@
 "use client";
 
 import Socials from "@/components/Socials";
-import Photo from "@/components/Photo";
+// import Photo from "@/components/Photo";
 import State from "@/components/Stats";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -19,7 +19,7 @@ const Hero = () => {
               Hello, I&apos;m <br />
               <span className="text-sky-700">Amine Elkhalidy</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-muted-foreground">
+            <p className="max-w-[500px] mb-9 text-muted-foreground underline">
               I excel at crafting elegant digital experiences.
             </p>
 
