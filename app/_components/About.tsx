@@ -80,7 +80,7 @@ const skills = {
 
 const About = () => {
   return (
-    <section className="pt-32 lg:pt-40">
+    <section className="pt-32 lg:pt-40" id="about">
       <Heading>Get to know me</Heading>
 
       <motion.div
@@ -90,7 +90,6 @@ const About = () => {
           transition: { delay: 2.4, duration: 0.4, ease: "easeIn" },
         }}
         className="flex items-center justify-center"
-        id="about"
       >
         <div className="container mx-auto">
           <Tabs
