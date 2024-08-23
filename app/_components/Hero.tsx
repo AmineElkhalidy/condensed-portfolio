@@ -16,10 +16,10 @@ const Hero = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-lg font-secondary">Full Stack Developer</span>
             <h1 className="h1">
-              Hello, I&apos;m <br />
+              Hello, I am <br />
               <span className="text-sky-700">Amine Elkhalidy</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-muted-foreground underline">
+            <p className="max-w-[500px] mb-9 text-muted-foreground">
               I excel at crafting elegant digital experiences.
             </p>
 

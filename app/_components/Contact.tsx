@@ -109,7 +109,7 @@ const Contact = () => {
               </div>
 
               {/* Select */}
-              <Select name="service">
+              {/* <Select name="service">
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select a service"></SelectValue>
                 </SelectTrigger>
@@ -128,7 +128,7 @@ const Contact = () => {
                 prefix="Service"
                 field="service"
                 errors={state.errors}
-              />
+              /> */}
 
               <Textarea
                 className="h-[200px] resize-none"
