@@ -29,7 +29,7 @@ const MobileNav = () => {
             </SheetClose>
           ))}
 
-          <Link href="/contact">
+          <Link href="#contact">
             <Button size="lg" className="bg-sky-700 hover:bg-sky-900">
               Hire me
             </Button>
